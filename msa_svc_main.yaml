@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: msa-main
-        image: makersworld/msa_svc_main:aws_amd64
+        image: makersworld/msa_svc_main:cicd_amd64
         ports:
         - containerPort: 8080
         env:
